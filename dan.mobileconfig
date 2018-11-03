@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>PayloadContent</key>
+    <array>
+        <dict>
+            <key>IKEv2</key>
+            <dict>
+                <key>AuthenticationMethod</key>
+                <string>Certificate</string>
+                <key>ChildSecurityAssociationParameters</key>
+                <dict>
+                    <key>DiffieHellmanGroup</key>
+                    <integer>20</integer>
+                    <key>EncryptionAlgorithm</key>
+                    <string>AES-256-GCM</string>
+                    <key>IntegrityAlgorithm</key>
+                    <string>SHA2-512</string>
+                    <key>LifeTimeInMinutes</key>
+                    <integer>20</integer>
+                </dict>
+                <key>DeadPeerDetectionRate</key>
+                <string>Medium</string>
+                <key>DisableMOBIKE</key>
+                <integer>0</integer>
+                <key>DisableRedirect</key>
+                <integer>1</integer>
+                <key>EnableCertificateRevocationCheck</key>
+                <integer>0</integer>
+                <key>EnablePFS</key>
+                <true/>
+                <key>IKESecurityAssociationParameters</key>
+                <dict>
+                    <key>DiffieHellmanGroup</key>
+                    <integer>20</integer>
+                    <key>EncryptionAlgorithm</key>
+                    <string>AES-256-GCM</string>
+                    <key>IntegrityAlgorithm</key>
+                    <string>SHA2-512</string>
+                    <key>LifeTimeInMinutes</key>
+                    <integer>20</integer>
+                </dict>
+                <key>LocalIdentifier</key>
+                <string>dan</string>
+                <key>PayloadCertificateUUID</key>
+                <string>52D745A0-9AAD-5350-8FAC-02B69F0760BC</string>
+                <key>CertificateType</key>
+                <string>ECDSA384</string>
+                <key>ServerCertificateIssuerCommonName</key>
+                <string>35.225.218.99</string>
+                <key>RemoteAddress</key>
+                <string>35.225.218.99</string>
+                <key>RemoteIdentifier</key>
+                <string>35.225.218.99</string>
+                <key>UseConfigurationAttributeInternalIPSubnet</key>
+                <integer>0</integer>
+            </dict>
+            <key>IPv4</key>
+            <dict>
+                <key>OverridePrimary</key>
+                <integer>1</integer>
+            </dict>
+            <key>PayloadDescription</key>
+            <string>Configures VPN settings</string>
+            <key>PayloadDisplayName</key>
+            <string>VPN</string>
+            <key>PayloadIdentifier</key>
+            <string>com.apple.vpn.managed.5774D2E2-9C88-5D09-8125-5E8C775A6A03</string>
+            <key>PayloadType</key>
+            <string>com.apple.vpn.managed</string>
+            <key>PayloadUUID</key>
+            <string>5774D2E2-9C88-5D09-8125-5E8C775A6A03</string>
+            <key>PayloadVersion</key>
+            <real>1</real>
+            <key>Proxies</key>
+            <dict>
+                <key>HTTPEnable</key>
+                <integer>0</integer>
+                <key>HTTPSEnable</key>
+                <integer>0</integer>
+            </dict>
+            <key>UserDefinedName</key>
+            <string>Algo VPN 35.225.218.99 IKEv2</string>
+            <key>VPNType</key>
+            <string>IKEv2</string>
+        </dict>
+        <dict>
+            <key>PayloadCertificateFileName</key>
+            <string>dan.p12</string>
+            <key>PayloadContent</key>
+            <data>
+            MIIEdQIBAzCCBDsGCSqGSIb3DQEHAaCCBCwEggQoMIIEJDCCAs8GCSqGSIb3DQEHBqCCAsAwggK8
+AgEAMIICtQYJKoZIhvcNAQcBMBwGCiqGSIb3DQEMAQYwDgQIgyXm4P95aI4CAggAgIICiNCfXyc+
+/9Ep4X2MigF0DX6jRHV1wxziK7FYPkvS9bsj2avzzpGhfsTzbCyyYyO7aGMJKlGFE5dIQO2sWIPb
+hwtOlbAi3KhMWYLuawQ4+g6swjIJYbThrmEpZZZv5V27Yo6qXj1G40poC78VHf8FB06nD9TEmUSi
+wjGytfm0TieFW2/0puG5pi2Gj/BO0BW6adi9ZuvRTQlABBLcxO7KyhozRGJkpzaeOHPu0Ju+MHuE
+XaB/HZJZaTIPetUIlyu+l7UvTbotO86tM31IneDYntAkH107SvuXJV3vpI+/jnr7ans02d/xpgdR
+bK6hwioz3KaPHnlBDOrB9AFguAtYkkVH6MuvnZfzbfmjlNiHGpUXJJXWlvb1G/KBisHwIiDa3jG5
+UbgWRXyA9VmVBkB1k8Sa/Cya2VZzZZ34YL6jOJC5P4WW04yTuf1mC4M+ZGQFtM2JHKC532LTKqmL
+0f+cNT5Lv3ER1Q6zT/bOVYza69JDeWzWciAPQle1mTOx3RRY4SO4+LuKSI1ODjRVg8QDPhaygu/z
+Jn3IFN5+JBQX3veMUCdWt8ByRV8DtsRJY+QmXFKzwe2p4YqkwzacPb5bMxXPGvLC7/FyaMhcWsvU
+jBgH/w29wtIwQ3ZYgppq6YwHbAU0Egm2FB62Jeu8oIPnuKoWGR2VbfiamUcopMy0DjPpThX0sWu6
+qt8PtpUPpxRtDDPquM9KD8HLdmeGAh0ckKaGVNMyfUE6oywwy5goyuMuvMrc74+chxaXnQNQg2Mr
+aHJH/JikVFA07wnMUc7acz2FB0JfHyelCgRIgGw/IGNAsrmUMuSkdNNVFk1W97ZNruU6B5GwkwjJ
+rHCPHyafGCPWUpqCHBGkDjCCAU0GCSqGSIb3DQEHAaCCAT4EggE6MIIBNjCCATIGCyqGSIb3DQEM
+CgECoIHkMIHhMBwGCiqGSIb3DQEMAQMwDgQI8Nq9N5pzskoCAggABIHAzy4WAjxRhSeE8j7UzMT4
+tcH6woZIbK8YQApVG4w6KaT2BpVvNpzJ4WoXqkI+k0HBHGwY28w9od7HpuwQv45KxEHOFmUPMcZO
+83Wv/ImAbh8YbX5hrYW6wQ97AH9lC/6X1/ZtFCH4z7ZJgQO1x5vl1e3JvSySuHtpZBdu6LWSF24M
+OL5Szyj1FLaddv4++Ixjt53wa7VeumQpO+ZK0OygVasJt3DSp/9SFDauHNo5Jf2jv5Xpmj4AnzPn
+VeeDIFTCMTwwFQYJKoZIhvcNAQkUMQgeBgBkAGEAbjAjBgkqhkiG9w0BCRUxFgQUiuwI1IywM211
+OkuHSQEd2mzPMhEwMTAhMAkGBSsOAwIaBQAEFCnIJ+AebCsYNmA2jFGq1o0cbV8vBAjtrgoUaZKz
+mQICCAA=
+            </data>
+            <key>PayloadDescription</key>
+            <string>Adds a PKCS#12-formatted certificate</string>
+            <key>PayloadDisplayName</key>
+            <string>dan.p12</string>
+            <key>PayloadIdentifier</key>
+            <string>com.apple.security.pkcs12.52D745A0-9AAD-5350-8FAC-02B69F0760BC</string>
+            <key>PayloadType</key>
+            <string>com.apple.security.pkcs12</string>
+            <key>PayloadUUID</key>
+            <string>52D745A0-9AAD-5350-8FAC-02B69F0760BC</string>
+            <key>PayloadVersion</key>
+            <integer>1</integer>
+        </dict>
+        <dict>
+            <key>PayloadCertificateFileName</key>
+            <string>ca.crt</string>
+            <key>PayloadContent</key>
+            <data>
+            LS0tLS1CRUdJTiBDRVJUSUZJQ0FURS0tLS0tCk1JSUI3VENDQVhLZ0F3SUJBZ0lKQVBSMkFSelVEbWdLTUFvR0NDcUdTTTQ5QkFNQ01CZ3hGakFVQmdOVkJBTU0KRFRNMUxqSXlOUzR5TVRndU9Ua3dIaGNOTVRneE1UQXlNVFV4TlRJMFdoY05Namd4TURNd01UVXhOVEkwV2pBWQpNUll3RkFZRFZRUUREQTB6TlM0eU1qVXVNakU0TGprNU1IWXdFQVlIS29aSXpqMENBUVlGSzRFRUFDSURZZ0FFCkxkVDdvaVNLZEZTcUVPMDZ5aUxqNXErblNzUTJsWE1ONzBNbXYyQUUxcFRJRUhqY1lvSGFCVzRkdHp3ajFYZG8KYmUrdW1NbWtDUGV1cnM0MFpEVEhhcmtVUXpQWVdkSkFITk45TDJlNWNIQktxeUNacDFWN2ZRazlnLytxWEo1RwpvNEdITUlHRU1CMEdBMVVkRGdRV0JCVDJIYUNiYzJVZnU2eUNqYXRiS20wZEJrVG02ekJJQmdOVkhTTUVRVEEvCmdCVDJIYUNiYzJVZnU2eUNqYXRiS20wZEJrVG02NkVjcEJvd0dERVdNQlFHQTFVRUF3d05NelV1TWpJMUxqSXgKT0M0NU9ZSUpBUFIyQVJ6VURtZ0tNQXdHQTFVZEV3UUZNQU1CQWY4d0N3WURWUjBQQkFRREFnRUdNQW9HQ0NxRwpTTTQ5QkFNQ0Eya0FNR1lDTVFDanNCN2J3dWxQYktodk51Q2Foa2pmQ0ZBU3pjS2V3NE04V1A4UWdJeHB1emgzCkVwWS9kc0p2RUx1akI5dGd0TkVDTVFEV2JidUthM0k1N0E3cjEwNzE1N0FRMTBXaDlIN0pseGdVMEhVM3JaNDUKaW1jbUFvRHZaNkJXYUtLOFRtMityVjQ9Ci0tLS0tRU5EIENFUlRJRklDQVRFLS0tLS0=
+            </data>
+            <key>PayloadDescription</key>
+            <string>Adds a CA root certificate</string>
+            <key>PayloadDisplayName</key>
+            <string>35.225.218.99</string>
+            <key>PayloadIdentifier</key>
+            <string>com.apple.security.root.5C1FDB3C-513B-58BA-9502-D5E4ECFA126C</string>
+            <key>PayloadType</key>
+            <string>com.apple.security.root</string>
+            <key>PayloadUUID</key>
+            <string>5C1FDB3C-513B-58BA-9502-D5E4ECFA126C</string>
+            <key>PayloadVersion</key>
+            <integer>1</integer>
+        </dict>
+    </array>
+    <key>PayloadDisplayName</key>
+    <string>35.225.218.99 IKEv2</string>
+    <key>PayloadIdentifier</key>
+    <string>donut.local.7D1228AD-93FE-58D8-8F1E-39901F9398F8</string>
+    <key>PayloadRemovalDisallowed</key>
+    <false/>
+    <key>PayloadType</key>
+    <string>Configuration</string>
+    <key>PayloadUUID</key>
+    <string>E8A0E974-1AAF-52B0-BBCE-85BF71F85FEA</string>
+    <key>PayloadVersion</key>
+    <integer>1</integer>
+</dict>
+</plist>
